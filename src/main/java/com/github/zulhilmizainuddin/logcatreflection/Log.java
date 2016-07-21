@@ -4,7 +4,9 @@ package com.github.zulhilmizainuddin.logcatreflection;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class Log {
+public final class Log {
+    private Log() {}
+
     public static void v(String tag, String log) {
         log("v", tag, log);
     }
