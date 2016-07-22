@@ -1,4 +1,4 @@
-# logcat-reflection
+# logcat-reflection [![Build Status](https://travis-ci.org/zulhilmizainuddin/logcat-reflection.svg?branch=master)](https://travis-ci.org/zulhilmizainuddin/logcat-reflection)
 Android logcat using reflection
 
 ## Build
