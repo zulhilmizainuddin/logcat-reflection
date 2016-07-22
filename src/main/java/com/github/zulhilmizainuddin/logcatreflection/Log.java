@@ -30,9 +30,9 @@ public final class Log {
     private static void log(String method, String tag, String log) {
         try {
             Class<?> logClass = Class.forName("android.util.Log");
-            Method infoMethod = logClass.getDeclaredMethod(method, String.class, String.class);
+            Method logMethod = logClass.getDeclaredMethod(method, String.class, String.class);
 
-            infoMethod.invoke(null, tag, log);
+            logMethod.invoke(null, tag, log);
         }
         catch (ClassNotFoundException |
                 NoSuchMethodException |
